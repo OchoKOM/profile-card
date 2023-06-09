@@ -14,7 +14,7 @@
 }
 @media (prefers-color-scheme:dark) {
     :root{
-        --clr: #00043b;
+        --clr: #083d41;
         --size-transition: 0.5s;
         --linear-bg: linear-gradient(90deg,#2ee5e5,#1100ff);
         --wave: #17141d;
