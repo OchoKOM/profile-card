@@ -5,21 +5,22 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 :root{
-    --clr: #d8eeeb;
+    --clr: #e0e4e3;
     --size-transition: 0.5s;
     --linear-bg: linear-gradient(90deg,#6f67e4,#01fce7);
     --wave: #444a68;
-    --boxes: #333;
-    --text-color: #bbb;
+    --boxes: #bcccd1;
+    --text-color: #666;
+    --borders: #aaa;
 }
 @media (prefers-color-scheme:dark) {
     :root{
-        --clr: #083d41;
-        --size-transition: 0.5s;
+        --clr: #13172c;
         --linear-bg: linear-gradient(90deg,#2ee5e5,#1100ff);
         --wave: #17141d;
         --boxes: #fff;
         --text-color: #333;
+        --borders: #ccc;
     }
 }
 body{
@@ -275,7 +276,7 @@ body{
     transition: var(--size-transition);
 }
 .card .box .content ul li:not(:last-child){
-    border-right: 1px solid #ccc;
+    border-right: 1px solid var(--borders);
 }
 .card .box .content ul li span{
     font-size: 1.65em;
